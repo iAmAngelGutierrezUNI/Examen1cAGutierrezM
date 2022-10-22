@@ -1,0 +1,11 @@
+package ui;
+
+import dol.Vehiculo;
+
+public class Mostrar {
+	Vehiculo ve = new Vehiculo();
+	public void MostrarV() {
+		System.out.println(ve.getMarca()+" "+ve.getModelo()+""+ve.getAño()+""+ve.getChasis()+""+ve.getPlaca());
+	}
+
+}

@@ -1,0 +1,11 @@
+package bll;
+
+import dol.Vehiculo;
+
+public class MostrarVehiculo {
+	Vehiculo vehi = new Vehiculo();
+	public void vehibll() {
+		vehi.getVehiculo()
+	}
+
+}

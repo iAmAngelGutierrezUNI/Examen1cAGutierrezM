@@ -1,0 +1,9 @@
+package ui;
+
+public class Mostrar {
+	Vehiculo ve = new Vehiculo();
+	public void MostrarV() {
+		System.out.println(ve.);
+	}
+
+}

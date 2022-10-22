@@ -1,0 +1,21 @@
+package ui;
+
+import java.util.Scanner;
+
+import dol.Vehiculo;
+
+public class Agregar {
+	private Scanner scan = new Scanner(System.in);
+	Vehiculo vehiculo = new Vehiculo();
+	public void AgrearVehiculo() {
+		System.out.println("Porfavor indique los sig. datos de su vehiculo");
+		System.out.println("1. Marca.");
+		vehiculo.setMarca(scan.next());
+		System.out.println("2. Modelo.");
+		System.out.println("3. Año.");
+		System.out.println("4. Chasis.");
+		System.out.println("5. placa.");
+		
+		}
+
+}
